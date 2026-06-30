@@ -16,7 +16,7 @@ function App() {
       setLoading(true);
       setAnswer("");
 
-      const response = await fetch("http://localhost:5000/ask", {
+      const response = await fetch("https://ai-legal-chatbot-7m9r.onrender.com/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
